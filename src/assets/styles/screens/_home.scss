@@ -6,14 +6,14 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    min-height: 75vh;
+    padding-bottom: 200px;
     background: linear-gradient(to bottom, #000, transparent),
       url(../../images/background.JPG);
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
     color: rgb(214, 205, 205);
-    transition: all 20s;
     .welcome-note-body {
-      padding-top: 400px;
+      padding-top: 200px;
       text-align: center;
     }
     .row {
