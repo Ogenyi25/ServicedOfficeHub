@@ -90,41 +90,43 @@ const Home = () => (
           <div className="header">CO WORKING</div>
           <div className="description">The sociable way to work.</div>
           <div className="body-text">
-            Fully-furnished, IT-enabled workspace that can grow with your
-            business - for one person or an entire team.
+          Desk space in a sociable shared office space – first come first served,
+          or you can reserve your own desk.
           </div>
           <button className="read-more">READ MORE</button>
         </div>
         <div className="col-md-8 image-container">
-          <img src={require("../assets/images/office.JPG")} alt="Office" />
+          <img src={require("../assets/images/working.JPG")} alt="Office" />
         </div>
       </div>
       <div className="row solution-item">
         <div className="col-md-8 image-container">
-          <img src={require("../assets/images/office.JPG")} alt="Office" />
+          <img src={require("../assets/images/conference.JPG")} alt="Office" />
         </div>
         <div className="col-md-4 solution-content">
-          <div className="header">OFFICE SPACE</div>
-          <div className="description">Have a great day at work.</div>
+          <div className="header">CONFERENCE ROOM</div>
+          <div className="description">Get together in a professional environment.</div>
           <div className="body-text">
-            Fully-furnished, IT-enabled workspace that can grow with your
-            business - for one person or an entire team.
+            <ul>
+              <li>For Meetings, Pitches or Presentations</li>
+                <li>For Training, Interviewing or Events</li>
+                <li>Flexible use (from an hour to a full day – and more)</li>
+            </ul>
           </div>
           <button className="read-more">READ MORE</button>
         </div>
       </div>
       <div className="row solution-item">
         <div className="col-md-4 solution-content">
-          <div className="header">OFFICE SPACE</div>
-          <div className="description">Have a great day at work.</div>
+          <div className="header">VISITORS LOUNGE/CYBER CENTER</div>
+          <div className="description">Give your guest the perfect relaxation spot.</div>
           <div className="body-text">
-            Fully-furnished, IT-enabled workspace that can grow with your
-            business - for one person or an entire team.
+            Fully-furnished, relaxation spot for you and your guest, that way you stay friendly.
           </div>
           <button className="read-more">READ MORE</button>
         </div>
         <div className="col-md-8 image-container">
-          <img src={require("../assets/images/office.JPG")} alt="Office" />
+          <img src={require("../assets/images/visitor.JPG")} alt="Office" />
         </div>
       </div>
     </div>
@@ -176,9 +178,6 @@ const Home = () => (
         </div>
         <div className="col-md-3 partners">
           <h5 className="partners-header">PARTNERS</h5>
-          <ul>
-            <li className="partners-list">The Executive Office Delux</li>
-          </ul>
         </div>
         <div className="col-md-3 contacts">
           <h5 className="contact-header">CONTACT</h5>

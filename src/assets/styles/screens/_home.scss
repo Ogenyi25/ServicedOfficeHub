@@ -359,6 +359,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          margin-top: 20px;
           img {
             max-width: 100%;
             background: $white;
@@ -375,14 +376,17 @@
             font-weight: bold;
             margin-bottom: 20px;
             margin-top: 15px;
+            text-align: center;
           }
           .description {
             font-weight: 300;
             margin-bottom: 20px;
+            text-align: center;
           }
           .body-text {
             font-weight: 500;
             margin-bottom: 50px;
+            text-align: center;
           }
           button.read-more {
             background-color: $primary;
@@ -414,7 +418,8 @@
           }
           .p-left {
             font-size: small;
-            margin: 0px 20px 50px 40px; 
+            margin: 0px 20px 50px 20px;
+            text-align: center;
           }
         }
         .about-body-right {
@@ -429,8 +434,8 @@
           }
           .p-right {
             font-size: small;
-            margin: 0px 10px 50px 20px;
-            text-align: end;
+            margin: 0px 90px 50px 10px;
+            text-align: center;
           }
         }
       }
@@ -443,6 +448,7 @@
           margin-top: 40px;
           margin-left: 20px;
           color: $white;
+          margin-bottom: 20px;
         }
         .products-list {
           color: $white;
@@ -450,23 +456,27 @@
         }
       }
       .partners {
-        margin-left: 100px;
+        margin-left: 80px;
         .partners-header {
           margin-top: 40px;
-          margin-left: 20px;
+          margin-left: 0px;
+          margin-right: 20px;
           color: $white;
+          
         }
         .partners-list {
           color: $white;
           font-weight: 500;
+          margin-right: 70px;
         }
       }
       .contacts {
         margin-left: 50px;
         .contact-header {
           margin-top: 40px;
-          margin-left: 20px;
+          margin-left: 30px;
           color: $white;
+          margin-bottom: 20px;
         }
         .contact-list {
           color: $white;
