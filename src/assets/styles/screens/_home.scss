@@ -139,4 +139,104 @@
       }
     }
   }
+  .about {
+    background-color: rgb(192, 189, 189);
+    .about-header {
+      margin-top: 50px;
+      text-align: center;
+      font-size: x-large;
+      font-weight: 700;
+      margin-bottom: 60px;
+    }
+    .about-body {
+      .about-body-left {
+        margin-left: 50px;
+        margin-right: 30px;
+        img {
+          width: 10vw;
+          height: 10vh;
+          padding-left: 50px;
+        }
+        .p-left {
+          font-size: small;
+          margin: 0px 20px 50px 40px; 
+        }
+      }
+      .about-body-right {
+        margin-left: 50px;
+        margin-right: 10px;
+        
+        img {
+          width: 6vw;
+          height: 10vh;
+          margin-left: 440px;
+
+        }
+        .p-right {
+          font-size: small;
+          margin: 0px 10px 50px 20px;
+          text-align: end;
+        }
+      }
+    }
+  }
+  .footer-container {
+    background-color: $primary;
+    .products {
+      margin-left: 60px;
+      .products-header {
+        margin-top: 40px;
+        margin-left: 20px;
+        color: $white;
+      }
+      .products-list {
+        color: $white;
+        font-weight: 500;
+      }
+    }
+    .partners {
+      margin-left: 100px;
+      .partners-header {
+        margin-top: 40px;
+        margin-left: 20px;
+        color: $white;
+      }
+      .partners-list {
+        color: $white;
+        font-weight: 500;
+      }
+    }
+    .contacts {
+      margin-left: 50px;
+      .contact-header {
+        margin-top: 40px;
+        margin-left: 20px;
+        color: $white;
+      }
+      .contact-list {
+        color: $white;
+        font-weight: 450px;
+        padding-left: 10px;
+        .fa {
+          padding-right: 10px;
+        }
+      }
+      .social {
+        margin-right: 15px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .foot-note {
+    background-color: black;
+    height: 10vh;
+    h6 {
+      padding-top: 25px;
+      text-align: center;
+      color: $white;
+      font-weight: 300;
+      font-size: smaller;
+    }
+  }
 }

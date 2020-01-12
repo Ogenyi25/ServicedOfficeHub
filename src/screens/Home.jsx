@@ -136,6 +136,83 @@ const Home = () => (
         </div>
       </div>
     </div>
+    <div className="about">
+      <div className="about-header">ABOUT US</div>
+      <div className="row about-body">
+        <div className="col-md-5 about-body-left">
+          <img src={require("../assets/images/office.JPG")} alt="office" />
+          <p className="p-left">
+            We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
+            <br />a <strong>wide range of office solutions</strong>to take advantage of.
+        These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
+
+          <p className="p-left">
+            We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
+            <br />a <strong>wide range of office solutions</strong>to take advantage of.
+        These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
+        </div>
+        <div className="col-md-5 about-body-right">
+          <img src={require("../assets/images/office.JPG")} alt="office" />
+          <p className="p-right">
+            We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
+            <br />a <strong>wide range of office solutions</strong>to take advantage of.
+            These services are <strong>highly cost effective</strong> and has also proven to be of high value.
+          </p>
+
+          <p className="p-right">
+            We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
+            <br />a <strong>wide range of office solutions</strong>to take advantage of.
+            These services are <strong>highly cost effective</strong> and has also proven to be of high value.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div className="footer-container">
+      <div className="row">
+        <div className="col-md-3 products">
+          <h5 className="products-header">PRODUCTS</h5>
+          <ul>
+            <li className="products-list">Virtual Office</li>
+            <li className="products-list">The Serviced Office Cubicle</li>
+            <li className="products-list">The Executive Office Classic</li>
+            <li className="products-list">The Executive Office Delux</li>
+            <li className="products-list">Visitors Lounge/Cyber Center</li>
+            <li className="products-list">Conference Room</li>
+            <li className="products-list">Audio Music Studio</li>
+          </ul>
+        </div>
+        <div className="col-md-3 partners">
+          <h5 className="partners-header">PARTNERS</h5>
+          <ul>
+            <li className="partners-list">The Executive Office Delux</li>
+          </ul>
+        </div>
+        <div className="col-md-3 contacts">
+          <h5 className="contact-header">CONTACT</h5>
+          <p className="contact-list"><i class="fa fa-envelope" aria-hidden="true"></i>
+            {" "} servicedofficehub@gmail.com</p>
+          <p className="contact-list"><i class="fa fa-phone" aria-hidden="true"></i>
+            {" "} 0803 451 8124, 0805 851 9150</p>
+          <p className="contact-list"><i class="fa fa-map-marker" aria-hidden="true"></i>
+            {" "} Ayibaebi Wa’ri,<br />
+              Plot 67 Cascurina Close (Estate Close),
+              Off Bayelsa Court,
+              Gaduwa Estate,
+              Gudu District,<br />
+              Abuja.
+              FCT.</p>
+              <a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-instagram social" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-envelope social" aria-hidden="true" href=""></i></a>
+        </div>
+
+      </div>
+      <div className="foot-note">
+        <h6>Copyright © 2020. Created by ServicedOfficeHub</h6>
+      </div>
+    </div>
   </div>
 );
 

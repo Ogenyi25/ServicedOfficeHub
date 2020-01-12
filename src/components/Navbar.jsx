@@ -24,11 +24,16 @@ const Navbar = () => {
             Products
           </li>
           <div className="collapse" id="collapseExample">
-            <div className="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. Nihil anim keffiyeh
-              helvetica, craft beer labore wes anderson cred nesciunt sapiente
-              ea proident.
+            <div className=" row card card-body">
+              <div className="col-md-3">
+                OFFICE
+              </div>
+              <div className="col-md-3">
+                CHURCH
+              </div>
+              <div className="col-md-3">
+                CAR
+              </div>
             </div>
           </div>
         </ul>
