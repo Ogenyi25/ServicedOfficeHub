@@ -30,12 +30,8 @@ const Home = () => (
             </div>
             <div className="content">
               <p>
-                We have the perfect network of workspace and co-working space
-              </p>
-            </div>
-            <div className="content">
-              <p>
-                We have the perfect network of workspace and co-working space
+              We have professional and inspiring work environments
+              to suit businesses of all sizes and budget.
               </p>
             </div>
             <div className="content">
@@ -55,22 +51,18 @@ const Home = () => (
           <div>
             <div className="content">
               <p>
-                We have the perfect network of workspace and co-working space
+              Avoid set-up costs, capital investment and ongoing hassles:
+              we eliminate the burden of a property management.
               </p>
             </div>
             <div className="content">
               <p>
-                We have the perfect network of workspace and co-working space
+              You get one contract, simple reporting, a dedicated account manager and 24/7 customer service.
               </p>
             </div>
             <div className="content">
               <p>
-                We have the perfect network of workspace and co-working space
-              </p>
-            </div>
-            <div className="content">
-              <p>
-                We have the perfect network of workspace and co-working space
+              Add or reduce on flexible terms depending on your current needs and future requirements.
               </p>
             </div>
           </div>
@@ -95,8 +87,8 @@ const Home = () => (
       </div>
       <div className="row solution-item">
         <div className="col-md-4 solution-content">
-          <div className="header">OFFICE SPACE</div>
-          <div className="description">Have a great day at work.</div>
+          <div className="header">CO WORKING</div>
+          <div className="description">The sociable way to work.</div>
           <div className="body-text">
             Fully-furnished, IT-enabled workspace that can grow with your
             business - for one person or an entire team.
