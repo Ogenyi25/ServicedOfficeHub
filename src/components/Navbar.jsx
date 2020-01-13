@@ -24,18 +24,19 @@ const Navbar = () => {
             Products
           </li>
         </ul>
-        <div className="row collapse" id="collapseExample">
-          <div className="col-md-3">
-            OFFICE
+        <div className="collapse" id="collapseExample">
+          <div className="card card-body">
+            <div className="row">
+              <div className="col-md-3">
+                EXECUTIVE OFFICE CLASSIC
               </div>
-          <div className="col-md-3">
-            CHURCH
+              <div className="col-md-3">
+                EXECUTIVE OFFICE DELUX
               </div>
-          <div className="col-md-3">
-            CAR
+              <div className="col-md-3">
+                MUSIC STUDIO
               </div>
-          <div className=" row card card-body">
-
+            </div>
           </div>
         </div>
 
@@ -45,11 +46,8 @@ const Navbar = () => {
         <button className="book-button" href="#collapseExample" data-toggle="collapse">Buy a Space</button>
         <div className="collapse" id="collapseExample">
           <div className="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life
-            accusamus terry richardson ad squid. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente
-            ea proident.
-            </div>
+
+          </div>
         </div>
         <button className="book-button">Plans and pricing</button>
       </div>

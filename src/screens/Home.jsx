@@ -141,9 +141,7 @@ const Home = () => (
         These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
 
           <p className="p-left">
-            We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
-            <br />a <strong>wide range of office solutions</strong>to take advantage of.
-        These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
+          We enable people and businesses to <strong>work where they want, when they want and how they want</strong>.</p>
         </div>
         <div className="col-md-5 about-body-right">
           <img src={require("../assets/images/office.JPG")} alt="office" />
