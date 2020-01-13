@@ -42,7 +42,7 @@ const Navbar = () => {
 
       </div>
       <div className="float-right col-md-6">
-        <span className="call ">Call: +234803 451 8124; +234 805 851 9150</span>
+        <span className="call ">Call: 0803 451 8124; 0805 851 9150</span>
         <button className="book-button" href="#collapseExample" data-toggle="collapse">Buy a Space</button>
         <div className="collapse" id="collapseExample">
           <div className="card card-body">

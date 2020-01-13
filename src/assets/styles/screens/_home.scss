@@ -259,7 +259,7 @@
       color: rgb(214, 205, 205);
       background-size: cover;
       .welcome-note-body {
-        padding-top: 200px;
+        padding-top: 250px;
         text-align: center;
       }
       .row {
@@ -385,7 +385,7 @@
           .body-text {
             font-weight: 500;
             margin-bottom: 50px;
-            text-align: center;
+            text-align: justify;
           }
           button.read-more {
             background-color: $primary;
@@ -418,7 +418,7 @@
           .p-left {
             font-size: small;
             margin: 0px 20px 50px 20px;
-            text-align: center;
+            text-align: justify;
           }
         }
         .about-body-right {
@@ -432,7 +432,7 @@
           .p-right {
             font-size: small;
             margin: 0px 30px 50px 10px;
-            text-align: center;
+            text-align: justify;
           }
         }
       }
