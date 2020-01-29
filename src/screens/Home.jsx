@@ -30,8 +30,8 @@ const Home = () => (
             </div>
             <div className="content">
               <p>
-              We have professional and inspiring work environments
-              to suit businesses of all sizes and budget.
+                We have professional and inspiring work environments
+                to suit businesses of all sizes and budget.
               </p>
             </div>
             <div className="content">
@@ -51,18 +51,18 @@ const Home = () => (
           <div>
             <div className="content">
               <p>
-              Avoid set-up costs, capital investment and ongoing hassles:
-              we eliminate the burden of a property management.
+                Avoid set-up costs, capital investment and ongoing hassles:
+                we eliminate the burden of a property management.
               </p>
             </div>
             <div className="content">
               <p>
-              You get one contract, simple reporting, a dedicated account manager and 24/7 customer service.
+                You get one contract, simple reporting, a dedicated account manager and 24/7 customer service.
               </p>
             </div>
             <div className="content">
               <p>
-              Add or reduce on flexible terms depending on your current needs and future requirements.
+                Add or reduce on flexible terms depending on your current needs and future requirements.
               </p>
             </div>
           </div>
@@ -82,7 +82,26 @@ const Home = () => (
             Fully-furnished, IT-enabled workspace that can grow with your
             business - for one person or an entire team.
           </div>
-          <button className="read-more">READ MORE</button>
+          <button type="button" className="read-more" data-toggle="modal" data-target="#exampleModal">READ MORE</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">OFFICE WORK SPACE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="row solution-item">
@@ -90,8 +109,8 @@ const Home = () => (
           <div className="header">CO WORKING</div>
           <div className="description">The sociable way to work.</div>
           <div className="body-text">
-          Desk space in a sociable shared office space – first come first served,
-          or you can reserve your own desk.
+            Desk space in a sociable shared office space – first come first served,
+            or you can reserve your own desk.
           </div>
           <button className="read-more">READ MORE</button>
         </div>
@@ -109,8 +128,8 @@ const Home = () => (
           <div className="body-text">
             <ul>
               <li>For Meetings, Pitches or Presentations</li>
-                <li>For Training, Interviewing or Events</li>
-                <li>Flexible use (from an hour to a full day – and more)</li>
+              <li>For Training, Interviewing or Events</li>
+              <li>Flexible use (from an hour to a full day – and more)</li>
             </ul>
           </div>
           <button className="read-more">READ MORE</button>
@@ -134,17 +153,17 @@ const Home = () => (
       <div className="about-header">ABOUT US</div>
       <div className="row about-body">
         <div className="col-md-5 about-body-left">
-          <img src={require("../assets/images/office.JPG")} alt="office" />
+          {/*<img src={require("../assets/images/office.JPG")} alt="office" />*/}
           <p className="p-left">
             We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
             <br />a <strong>wide range of office solutions</strong>to take advantage of.
         These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
 
           <p className="p-left">
-          We enable people and businesses to <strong>work where they want, when they want and how they want</strong>.</p>
+            We enable people and businesses to <strong>work where they want, when they want and how they want</strong>.</p>
         </div>
         <div className="col-md-5 about-body-right">
-          <img src={require("../assets/images/office.JPG")} alt="office" />
+          {/*<img src={require("../assets/images/office.JPG")} alt="office" />*/}
           <p className="p-right">
             We are a company that offers <strong>young entrepreneurs</strong> and <strong>business owners</strong>
             <br />a <strong>wide range of office solutions</strong>to take advantage of.
@@ -185,16 +204,16 @@ const Home = () => (
             {" "} 0803 451 8124, 0805 851 9150</p>
           <p className="contact-list"><i class="fa fa-map-marker" aria-hidden="true"></i>
             {" "} Ayibaebi Wa’ri,<br />
-              Plot 67 Cascurina Close (Estate Close),
-              Off Bayelsa Court,
-              Gaduwa Estate,
+            Plot 67 Cascurina Close (Estate Close),
+            Off Bayelsa Court,
+            Gaduwa Estate,
               Gudu District,<br />
-              Abuja.
+            Abuja.
               FCT.</p>
-              <a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-instagram social" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-envelope social" aria-hidden="true" href=""></i></a>
+          <a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-instagram social" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-envelope social" aria-hidden="true" href=""></i></a>
         </div>
 
       </div>
