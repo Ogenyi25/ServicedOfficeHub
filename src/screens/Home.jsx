@@ -95,10 +95,7 @@ const Home = () => (
                 <div class="modal-body">
                   ...
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -149,7 +146,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-    <div className="about">
+    <div className="about container">
       <div className="about-header">ABOUT US</div>
       <div className="row about-body">
         <div className="col-md-5 about-body-left">
@@ -160,7 +157,8 @@ const Home = () => (
         These services are <strong>highly cost effective</strong> and has also proven to be of high value.</p>
 
           <p className="p-left">
-            We enable people and businesses to <strong>work where they want, when they want and how they want</strong>.</p>
+            We enable people and businesses to <strong>work where they want, when they want and how they want</strong>.
+            This gives you a strong sense of togetherness over your business.</p>
         </div>
         <div className="col-md-5 about-body-right">
           {/*<img src={require("../assets/images/office.JPG")} alt="office" />*/}
